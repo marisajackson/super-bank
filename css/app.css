@@ -1,0 +1,61 @@
+body {
+  background-color: #9396b8;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 3px;
+}
+h3 {
+  background-color: gray;
+  border-radius: 5px;
+  width: 180px;
+  margin: 3px;
+  padding: 3px;
+  text-align: right;
+}
+h2,
+h3 {
+  display: inline;
+  float: left;
+}
+button {
+  font-size: 20px;
+}
+#deposit {
+  background-color: #67c634;
+}
+#withdraw {
+  background-color: #e64141;
+}
+#input {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+#amount {
+  width: 80px;
+  font-size: 20px;
+  text-align: right;
+}
+table,
+thead {
+  border: 1.5px solid black;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  width: 600px;
+}
+tr:nth-child(2n) {
+  background-color: #bdbdbd;
+}
+#title {
+  font-size: 30px;
+  background-color: gray;
+}
+.withdraw,
+.negative {
+  color: red;
+  font-weight: bold;
+}
