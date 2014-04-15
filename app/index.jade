@@ -5,7 +5,30 @@ html(lang='en')
     title Client Template
     link(rel='stylesheet', href='./css/app.css')
   body
-    h1 Client Template
+    h1 Super Bank
+    #input
+      h2 Balance
+      h3#balance $1000
+      input#amount
+      button#deposit Deposit
+      button#withdraw Withdraw
 
-    script(src='./js/vendor/jquery-2.1.0.js')
-    script(src='./js/source/main.js')
+    table#ledger
+      thead
+        tr
+          td#title(colspan="4") Ledger
+        tr
+          td Fee
+          td Deposit
+          td Withdraw
+          td Balance
+      tbody
+        tr
+          td
+          td
+          td
+          td$1000
+
+
+  script(src='./js/vendor/jquery-2.1.0.js')
+  script(src='./js/source/main.js')
